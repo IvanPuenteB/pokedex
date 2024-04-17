@@ -72,6 +72,9 @@ a{
   max-width: 1000px;
   margin: 0 auto;
 }
+.nav-img{
+  width: 100%;
+}
 
 .nav-list {
   display: flex;
@@ -301,6 +304,14 @@ a{
 .fairy {
   background-color: var(--type-fairy);
   color: var(--clr-black);
+}
+
+.btn-salir{
+  margin-left: auto;
+  background-color: #a040a0;
+  border-radius: 10px;
+  color: #fff;
+  padding: 5px;
 }
 
 /* Login */
@@ -542,4 +553,11 @@ a{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+}
+
+.flex-between{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
 }
