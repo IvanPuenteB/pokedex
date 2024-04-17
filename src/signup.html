@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Toastify libreria para alertas -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="./js/index.js" type="module"></script>
+    <title>Login Pokémon</title>
+    <style></style>
+  </head>
+  <body>
+    <main class="main-login flex">
+      <div class="login-container">
+        <div class="left-container flex">
+          <div class="header-login">
+            <img class="logo-img" src="img/logo.png" alt="logo" />
+            <label for="language"></label>
+            <select id="language">
+              <option>English</option>
+              <option>
+                Español
+              </option>
+            </select>
+          </div>
+          <div class="title">
+            <h1 class="title-login-h1">¡Regístrate!</h1>
+            <h2 class="title-login-h2">
+              Crea una cuenta para acceder al dashboard de Pokémon
+            </h2>
+          </div>
+          <form id="signup-form" class="login-form flex">
+            <div class="form-group flex logged-out">
+              <button id="google-login" class="btn-google flex">
+                <img src="img/google-icon.png" alt="google-icon" />Regístrate
+                con Google
+              </button>
+            </div>
+            <div class="or-wraper">
+              <h3 class="title-login-h3 logged-out">o</h3>
+            </div>
+            <!-- <div class="form-group flex">
+              <input
+                type="text"
+                id="username"
+                required
+                placeholder="Nombre de usuario"
+              />
+            </div> -->
+            <div class="form-group flex logged-out">
+              <input
+                type="email"
+                id="signup-email"
+                required
+                placeholder="Correo Electrónico"
+              />
+            </div>
+            <div class="form-group flex logged-out">
+              <input
+                type="password"
+                id="signup-password"
+                required
+                placeholder="Contraseña"
+              />
+            </div>
+            <a href="./main.html" class="btn-google logged-in">Iniciar</a>
+            <a href="#" class="btn-google logged-in" id="logout">Logout</a>
+
+            <div class="form-group flex logged-out">
+              <input
+                type="password"
+                id="confirm-password"
+                required
+                placeholder="Confirmar Contraseña"
+              />
+            </div>
+            <div class="form-group flex logged-out">
+              <button  class="login-btn " type="submit">Registrarse</button>
+            </div>
+          </form>
+        </div>
+        <div class="right-container">
+          <img src="img/squirtle.png" alt="Pikachu" />
+          <div class="btn-container flex">
+            <div class="btn-sign-up logged-out">
+              <a href="./login.html">Iniciar Sesión</a>
+            </div>
+            <div class="btn-join-us-signup">
+              <a href="#">Join us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+      <!-- Toastify -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+  </body>
+</html>
