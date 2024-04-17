@@ -11,7 +11,7 @@
 // console.log(apiKey)
 
 const firebaseConfig = {
-    
+    // Coloca aqui tus credentciales
   };
 
 export { firebaseConfig };
