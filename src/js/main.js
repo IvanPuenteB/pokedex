@@ -9,6 +9,8 @@ onAuthStateChanged(auth, async (user) => {
         loginCheck(user)
     }else{
         loginCheck(user)
+        window.location.href = './index.html';
+
     }
 })
 
